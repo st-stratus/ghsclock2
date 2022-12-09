@@ -1,0 +1,138 @@
+.upbox{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: 400ms ease-out;
+}
+.midbox{
+  transition: 400ms ease-out;
+  position: absolute;
+}
+.lowbox{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: 400ms ease-out;
+}
+.pb{
+  transition: 400ms ease-out;
+  background-color: #4d5bff;
+  border-radius: 8px;
+  height: 7px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+.pbb{
+  transition: 400ms ease-out;
+  background-color: #cccccc;
+  border-radius: 8px;
+  height: 7px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  box-shadow: 0px 0px 5px #b8b8b8;
+}
+.bt{
+  transition: 400ms ease-out;
+  text-shadow: 0px 0px 2px #b8b8b8;
+  color: #1a1a1a;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.sbbox{
+  background-color: #ffffff;
+  transition: 400ms ease-out;
+  border-radius: 8px;
+  position: absolute;
+  height: 40px;
+  box-shadow: 0px 0px 15px #b8b8b8;  
+}
+.side_box{
+  height: 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  position: absolute;
+  transition: 400ms ease-out;
+}
+.sb-pb-bg{
+  position: absolute;
+  background-color: #cccccc;
+  box-shadow: 0px 0px 5px #b8b8b8;
+  top: 28px;
+  left: 10px;
+  height: 7px;
+  border-radius: 8px;
+  transition: 400ms ease-out;
+}
+body{
+  font-family:arial;
+  background-color: #efefef;
+  text-align:center;
+  padding:50px;
+  color:#999999;
+}
+.side-ui{
+  background-color: #ededed;
+  color: #000000;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 580px;
+  width: 305px;
+  height: 280px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #999999;
+  transition: 400ms ease-out;
+}
+.suit{
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #d1d1d1;
+  border-radius: 9px;
+  height: 60px;
+  text-shadow: 0px 0px 2px;
+}
+.holder{
+  position: absolute;
+  width: 285px;
+  height: 90px;
+  top: 70px;
+  left: 10px;
+  border-radius: 3px;
+  background-color: #8f8f8f;
+  transition: 400ms ease-out;
+}
+.bracket{
+  transition: 400ms ease-out;
+  position: absolute;
+  height: 7px;
+  width: 15px;
+  top: 2px;
+  border-radius: 4px;
+}
+.marker{
+  height: 90px;
+  position: absolute;
+  width: 4px;
+  opacity: 0.8;
+  background-color: #e22400;
+  top: 0px;
+  border-radius: 2px;
+  border: 2px;
+}
+.ttlt{
+  color: #000000;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 50px;
+  height:30px;
+  position: absolute;
+  top: -20px;
+}
